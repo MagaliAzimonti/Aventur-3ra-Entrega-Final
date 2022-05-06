@@ -114,20 +114,36 @@ footer p {
   .about__main h2 {
     font-size: 35px; }
   .about__main iframe {
-    height: 450px;
-    padding: 0px 120px; }
+    height: 250px;
+    padding: 0px 20px; }
+    @media screen and (min-width: 768px) {
+      .about__main iframe {
+        height: 450px;
+        padding: 0px 120px; } }
   .about__main .gallery__about img {
     width: 100%; }
   .about__main .gallery__about .img__big {
-    height: 200px;
+    height: 150px;
     margin-bottom: 10px; }
+    @media screen and (min-width: 400px) {
+      .about__main .gallery__about .img__big {
+        height: 240px; } }
     @media screen and (min-width: 768px) {
+      .about__main .gallery__about .img__big {
+        height: 220px; } }
+    @media screen and (min-width: 1000px) {
       .about__main .gallery__about .img__big {
         height: 300px; } }
   .about__main .gallery__about .img__small {
-    height: 200px;
+    height: 150px;
     margin: 10px 0px; }
+    @media screen and (min-width: 400px) {
+      .about__main .gallery__about .img__small {
+        height: 240px; } }
     @media screen and (min-width: 768px) {
+      .about__main .gallery__about .img__small {
+        height: 160px; } }
+    @media screen and (min-width: 1000px) {
       .about__main .gallery__about .img__small {
         height: 230px; } }
   @media screen and (min-width: 768px) {
